@@ -1088,7 +1088,7 @@ func (e Envelope) toVAppConfig(
 					Type:             p.Type,
 					UserConfigurable: p.UserConfigurable,
 					DefaultValue:     value,
-					Value:            "",
+					Value:            value,
 					Description:      deref(p.Description),
 				},
 			}
